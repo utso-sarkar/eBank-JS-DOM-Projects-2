@@ -12,10 +12,10 @@ document.getElementById('btn-submit').addEventListener('click',function(){
 
 // email and password varyfy
 if(email ==="utso@gmail.com" && password === "Password"){
-    console.log('valid user');
+    window.location.href='bank.html';
 }
 else{
-    console.log(" you are a hacker");
+    alert("incorrect Password")
 }
 
 
